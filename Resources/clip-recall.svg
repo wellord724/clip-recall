@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">ClipRecall</title>
+  <rect width="256" height="256" rx="56" fill="#18352f"/>
+  <path d="M81 48h58l31 31v110a16 16 0 0 1-16 16H81a16 16 0 0 1-16-16V64a16 16 0 0 1 16-16Z" fill="#f6f1e5"/>
+  <path d="M139 48v24a7 7 0 0 0 7 7h24" fill="#d7e8a0"/>
+  <rect x="91" y="99" width="54" height="8" rx="4" fill="#31574d"/>
+  <rect x="91" y="121" width="40" height="8" rx="4" fill="#31574d" opacity=".76"/>
+  <rect x="91" y="143" width="48" height="8" rx="4" fill="#31574d" opacity=".55"/>
+  <path d="M166 157a28 28 0 1 1-5-31" fill="none" stroke="#f18461" stroke-linecap="round" stroke-width="10"/>
+  <path d="m153 117 16 2-2 16" fill="none" stroke="#f18461" stroke-linecap="round" stroke-linejoin="round" stroke-width="9"/>
+</svg>

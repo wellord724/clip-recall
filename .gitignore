@@ -1,0 +1,8 @@
+.DS_Store
+.build/
+.swiftpm/
+ClipboardApp.app/
+*.xcuserstate
+.vscode/settings.json
+py_torch_test.py
+test.txt
