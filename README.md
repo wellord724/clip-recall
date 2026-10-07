@@ -9,7 +9,8 @@
 ## 演示
 
 <p align="center">
-  <video src="https://raw.githubusercontent.com/wellord724/clip-recall/main/Jietu20260924-153912-HD.mp4" controls width="800">
+  <video controls width="800">
+    <source src="https://raw.githubusercontent.com/wellord724/clip-recall/main/Jietu20260924-153912-HD.mp4" type="video/mp4">
     <a href="Jietu20260924-153912-HD.mp4">查看演示视频</a>
   </video>
 </p>
