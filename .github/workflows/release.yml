@@ -34,7 +34,7 @@ jobs:
           set -euo pipefail
           zsh Scripts/build-app.sh
           test "$(/usr/libexec/PlistBuddy -c 'Print :CFBundleShortVersionString' Resources/Info.plist)" = '0.1.0'
-          lipo -verify_arch '${{ matrix.arch }}' ClipboardApp.app/Contents/MacOS/ClipboardApp
+          lipo ClipboardApp.app/Contents/MacOS/ClipboardApp -verify_arch '${{ matrix.arch }}'
           codesign --verify --deep --strict --verbose=2 ClipboardApp.app
           plutil -lint ClipboardApp.app/Contents/Info.plist
           mkdir -p dist
